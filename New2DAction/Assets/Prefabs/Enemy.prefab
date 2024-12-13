@@ -254,7 +254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dadb1e002fe1947b82890550146e04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myScore: 10
   speed: 1
   gravity: 1
-  nonVisibleAct: 1
+  nonVisibleAct: 0
   checkCollision: {fileID: 8776081340790047039}

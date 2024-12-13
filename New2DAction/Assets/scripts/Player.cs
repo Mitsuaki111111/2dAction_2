@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -234,4 +235,8 @@ public class Player : MonoBehaviour
     }
     #endregion
 
+    public void GotoGameOverScene()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
 }

@@ -9,6 +9,8 @@ TagManager:
   - Coin
   - Enemy
   - Ground
+  - HItArea
+  - DeadArea
   layers:
   - Default
   - TransparentFX
